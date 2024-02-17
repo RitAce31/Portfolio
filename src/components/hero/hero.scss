@@ -53,6 +53,10 @@
         font-size: 40px;
         color: rgb(174, 92, 255);
         letter-spacing: 10px;
+
+         @include mobile {
+           margin-top: 20px;
+         }
       }
 
       div h1 {

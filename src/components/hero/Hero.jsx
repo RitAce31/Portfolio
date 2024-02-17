@@ -54,7 +54,9 @@ const Hero = () => {
               <motion.button style={{ zIndex: 3 }} variants={textVariants} onClick={() => {}}>
                 <motion.a href="#Portfolio">See the latest works</motion.a>
               </motion.button>
-              <motion.button variants={textVariants}>Contact Me</motion.button>
+              <motion.button variants={textVariants}>
+              <motion.a href="#Contact">Contact Me</motion.a>
+               </motion.button>
             </motion.div>
           </div>
           <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="" />

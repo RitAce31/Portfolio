@@ -62,7 +62,7 @@ const Services = () => {
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
         <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-          <h2>Expert Printing Repairs</h2>
+          <h2>Expert Printer Repairing</h2>
           <p>
             Efficient solutions for any printer issue. Our skilled technicians specialize in diagnosing and fixing
             problems, ensuring optimal printer performance.
